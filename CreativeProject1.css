@@ -1,0 +1,175 @@
+
+
+
+body{
+    background-color: rgb(50, 50, 50);
+}
+html{
+    background-color: rgb(50,50,50);
+    color:white;
+    
+}
+header{
+    background-color: rgb(50,50,50);
+    color:white;
+    text-align:center;
+}
+h1{
+    background-color: rgb(50,50,50);
+    color: white;
+    text-align:center;
+    
+}
+h3{
+    background-color: rgb(50,50,50);
+    color:white;
+    text-align:Center;
+}
+.contactspacing{
+    background-color: rgb(50,50,50);
+    color:white;
+    text-align:Center;
+    padding-bottom: 100px;
+    
+}
+a{
+    
+    color:rgb(255, 153, 0);
+    text-decoration: none;
+}
+
+
+.home{
+    
+    height: 50%;
+    width: 100%;
+    
+}
+.topage{
+    background-color: rgb(50,50,50);
+    color:white;
+    text-align:center;
+    font-size:70px;
+    padding-top: 50px;
+}
+
+.leftPicture{
+    height: auto;
+    Width: 75%;
+}
+.rightDescription{
+    background-color: rgb(50,50,50);
+    color:white;
+    
+}
+.linkPicture{
+    height: auto;
+    width: 60%;
+    transition: .5s;
+    
+}
+.linkPicture:hover{
+
+    
+    height:auto;
+    width: 70%;
+    transition: .5s;
+}
+
+.links{
+    display: center;
+}
+.posters{
+    display:inline-block;
+    height: auto;
+    width: 40%;
+    transition: .5s;
+}
+.posters:hover{
+    display:inline-block;
+    height: auto;
+    width: 45%;
+    transition: .5s;   
+}
+.video{
+    width: 90%; 
+    height: auto;
+}
+.embed{
+    width:90%;
+    height: 315px;
+    padding-top:10px;
+}
+
+.middleBox{
+    
+    white-space: normal;
+    text-align: center;
+    
+    
+}
+.theatrepic{
+    height: auto;
+    width: 80%;
+}
+.darcy{
+    Height: auto;
+    width: 80%;
+}
+.chalk{
+    height: auto;
+    width: 80%;
+}
+.darcytext{
+    display: inline-block;
+}
+.contactbutton{
+    background-color: rgb(116, 116, 116); 
+    color:rgb(255, 153, 0); 
+    border: none; 
+    height: 50px; width: 200px;
+
+}
+button.contactbutton:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+
+@media screen and (min-width: 720px) {
+    .leftPicture {width: 682.66px; height: 909.33px;}
+    .linkPicture {width:500px; height: 500px;}
+    .linkPicture:hover{transition: .5s;; width:550px; height: 550px;}
+    .links{display: inline-block;}
+    .middleBox{white-space: pre;}
+    .posters{width:300px; height:450px;}
+    .posters:hover{width:325px; height:500px; transition:.5s;}
+    .video{width:600px; height: 300px;}
+    .embed{width: 560px; height: 315px;}
+    .theatrepic{width: 800px; height: 554.66px;}
+    .darcy{width: 455px; height: 682.66px;}
+    .chalk{width:504px; height:672px;}
+    
+}
+
+
+
+iframe.frame {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    background-color: gray
+
+}
+
+section {
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+div.Descrip {
+    padding: 50px;
+    
+}
