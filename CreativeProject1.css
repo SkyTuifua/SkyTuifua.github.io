@@ -1,6 +1,4 @@
 
-
-
 body{
     background-color: rgb(50, 50, 50);
 }
@@ -130,6 +128,10 @@ a{
     height: 50px; width: 200px;
 
 }
+.aboutPicture{
+    height: 50%;
+    width: 50%;
+}
 button.contactbutton:hover{
     background-color: rgb(29, 29, 29);
 }
@@ -148,6 +150,7 @@ button.contactbutton:hover{
     .theatrepic{width: 800px; height: 554.66px;}
     .darcy{width: 455px; height: 682.66px;}
     .chalk{width:504px; height:672px;}
+    .aboutPicture{height: 480px; width: 360px;}
     
 }
 
